@@ -8,6 +8,7 @@ export default class extends AbstractView{
     }
 
     async getHTML() {
+        // localStorage.setItem('country', null);
         let countries = getCountries();
 
         return `
