@@ -5,9 +5,13 @@
 }
 
 .countryV {
-  padding: 20px;
-  text-align: center;
-  background-color: #ddd;
-  height: 100px;
-  background-color: pink;
+  display: block;
+  margin: 20px auto;
+  padding: 5px;
+  min-width: 100%;
+  color: #333;
+  font-size: 15px;
+  font-weight: 900;
+  -moz-text-align-last: center;
+       text-align-last: center;
 }/*# sourceMappingURL=index.css.map */

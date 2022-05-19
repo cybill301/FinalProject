@@ -16,10 +16,11 @@ export default class extends AbstractView{
         <div>
         ${countries.map(country=>{
         return (
-            `<a href="/countries/${country.cca3}">
+            `<div class="allCountry"><a href="/countries/${country.cca3}">
                 <img src="${country.flags.png}", alt="no image", width="100", height="100"/>
             </a>
-            <p>Country Name: ${country.name.common}</p>`
+            <p>Country Name: ${country.name.common}</p>
+            </div>`
             )
         })}
         </div>`;

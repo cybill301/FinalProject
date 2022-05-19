@@ -9,7 +9,7 @@ export default class extends AbstractView{
     }
 
     async getHTML() {
-        getSelectedCountry(this.params.id);
+        await getSelectedCountry(this.params.id);
         let selectedCountry = JSON.parse(localStorage.getItem('country'))[0];
         console.log(selectedCountry);
         // let country = countries.reduce((prev, curr)=> {
